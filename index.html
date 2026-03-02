@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+    <title>FrostVerse</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c00e826b33.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-theme="dark">
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/logo.webp" alt="logo"></a>
+        </div>
+        <div class="onlinePlayers">
+            
+            <div id="online">
+                <i class="fa-regular fa-user"></i>
+                <span id="onlineText">0</span>
+                online játékos
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg p-0 ms-auto">
+            
+            <button class="navbar-toggler text-white border-0" type="button">
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Főoldal</a>
+                    <a class="nav-link" href="#rolunk">Szabályzat</a>
+                    <a class="nav-link discordLink kulsoLink" href="https://discord.gg/U5URyhkjU8" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+                    <a class="nav-link voteLink kulsoLink" href="https://mc-szerverek.hu/server/3657" target="_blank"><i class="fa-regular fa-thumbs-up"></i> Szavazás</a>
+                </div>
+            </div>
+
+        </nav>
+        
+    </header>
+
+    <div class="fullscreen-menu" id="mobileMenu">
+        <a href="#">Főoldal</a>
+        <a href="#rolunk">Szabályzat</a>
+        <a href="https://discord.gg/U5URyhkjU8" target="_blank" class="discordLink kulsoLink"><i class="fa-brands fa-discord"></i> Discord</a>
+        <a href="https://mc-szerverek.hu/server/3657" target="_blank" class="voteLink kulsoLink"><i class="fa-regular fa-thumbs-up"></i> Szavazás</a>
+    </div>
+
+    <div class="hero">
+        <img src="img/frostverse_lobby.webp" alt="bg" class="fokep">
+        <div class="hero-overlay">
+            <div class="hero-side-left hero-grid">
+                <div class="title-line1 title-gardient">FrostVerse</div>
+                <div class="title-line2">Csatlakozz Magyarország egyik <span class="title-gardient">legmenőbb</span> Minecraft szerverére!</div>
+                <div class="title-csatlakozz">
+                    <a href="#csatlakozas">Csatlakozz most!</a>
+                </div>
+            </div>
+            <div class="hero-side-right hero-grid">
+                <img src="img/logo.webp" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="csatlakozas container-fluid" id="csatlakozas">
+        <h1>Hogyan <u>csatlakozhatok</u>?</h1>
+        <div class="row justify-content-md-center g-5 csatlakozasMenete">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="csatlakozasPont">
+                    <h2><span class="szamHatter">1.</span> Kliens kiválasztása</h2>
+                    Bármilyen Java Minecraft klienssel csatlakozhatsz szerverünkre. Ha nincs eredeti játékod, akkor ajánljuk az <a href="https://skmedix.pl/" target="_blank">SKlauncher</a> tört klienst. <br> <br>
+                    A szerverre <span class="csatlakozasKiemeltSzoveg">1.21</span> és <span class="csatlakozasKiemeltSzoveg">1.21.11</span> verziók között bármivel felléphetsz, de a legjobb élményhez az <span class="csatlakozasKiemeltSzoveg">1.21.4</span>-es verziót ajánljuk.
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="csatlakozasPont">
+                    <h2><span class="szamHatter">2.</span> Szerver hozzáadása</h2>
+                    Miután elindult a játékod, lépj a <span class="csatlakozasKiemeltSzoveg">Többjátékos mód</span> fülre, ahol pedig kattints a <span class="csatlakozasKiemeltSzoveg">Szerver felvétele</span> gombra. Adj meg egy tetszőleges nevet, majd a szerver címének add meg azt az IP címet, amit <u>innen</u> másolhatsz ki. <br> <br>
+                    <div class="ipcim">
+                        play.frostverse.eu
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="csatlakozasPont">
+                    <h2><span class="szamHatter">3.</span> Belépés és regisztráció</h2>
+                    Csatlakozás után először egy AntiBot szűrőn kell átmenned, ehhez írd be a chatbe a kezedben lévő térképen található kódot. <br> <br>
+                    Ha még nem játszottál nálunk, regisztrálnod kell a <span class="csatlakozasKiemeltSzoveg">/register &lt;jelszó&gt; &lt;jelszó újra&gt;</span> paranccsal. <br>
+                    Ha pedig már visszatérő játékos vagy, egyszerűen jelentkezz be a <span class="csatlakozasKiemeltSzoveg">/login &lt;jelszó&gt;</span> paranccsal.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="vezetoseg container-fluid">
+        <h1>Vezetőség</h1>
+        <div class="vezetoseg-tagok">
+            <div class="row justify-content-center csapattag-sor">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag tulaj">
+                        <img src="img/heads/notkynix.svg" alt="Panni46">
+                        <div>Tulaj</div>
+                        <p>NotKynix</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag tulaj">
+                        <img src="img/heads/steve.svg" alt="Panni46">
+                        <div>Tulaj</div>
+                        <p>MrDavee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center csapattag-sor">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag fejleszto">
+                        <img src="img/heads/tanczikmate.svg" alt="Panni46">
+                        <div>Fejlesztő</div>
+                        <p>tanczikmate</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag fejleszto">
+                        <img src="img/heads/steve.svg" alt="Panni46">
+                        <div>Fejlesztő</div>
+                        <p>_Barnus</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag fejleszto">
+                        <img src="img/heads/steve.svg" alt="Panni46">
+                        <div>Fejlesztő</div>
+                        <p>Sufni</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center csapattag-sor">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag admin">
+                        <img src="img/heads/steve.svg" alt="Panni46">
+                        <div>Admin</div>
+                        <p>Maroonasd</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag epitesz">
+                        <img src="img/heads/panni46.svg" alt="Panni46">
+                        <div>Építész</div>
+                        <p>Panni46</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="csapattag moderator">
+                        <img src="img/heads/steve.svg" alt="Panni46">
+                        <div>Moderátor</div>
+                        <p>Barniboy</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        
+    </div> -->
+
+    <div class="rolunk-container">
+        <img src="img/skyblock_banya.webp" alt="bg" class="rolunk-bg">
+        <div class="rolunk-content">
+            <h1>Miért érdemes nálunk játszani?</h1>
+            <p>A FrostVerse 2025-ben nyitott, azzal a céllal hogy minőségi és értékes játékélményt biztosítson mindenkinek. Kiemelkedő figyelmet fektetünk a barátságos, összetartó közösségre.</p>
+            <p>Azt valljuk, hogy egy jó közösségben nem csak időtöltés a játék, hanem érték. Érték, melyre évekkel később is szívesen emlékszünk vissza.</p>
+        </div>
+    </div>
+
+
+
+    
+
+    
+    <script src="js/status.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/ipcopy.js"></script>
+</body>
+</html>
